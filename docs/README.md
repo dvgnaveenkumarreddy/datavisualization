@@ -1,105 +1,37 @@
-# [Paper Dashboard 2](https://demos.creative-tim.com/paper-dashboard-2/examples/dashboard.html) [![version][version-badge]][CHANGELOG] [![license][license-badge]][LICENSE]
+Terrorism has been one of the biggest threats to the international peace and security in the world today which every country is working on to evade it. The global terrorism database is a dataset which holds the details of the terrorist attacks that has occurred during the period of 1970 to 2017 across the globe. There have been 170,000 terrorist events that have taken place across the globe since 1970 to 2017. The different type of events recorded includes more than 83,000 bombing, 18000+ assassinations and more than 11,000 kidnapping.  
 
-![alt text](https://s3.amazonaws.com/creativetim_bucket/products/86/original/opt_pd2_thumbnail.jpg)
+Global terrorism database unlike many other event databases, the GTD includes systematic data on domestic as well as transnational and international terrorist incidents that have occurred during this time period and now includes more than 180,000 cases. For each GTD incident, information is available on the date and location of the incident, the weapons used and nature of the target, the number of casualties, and--when identifiable--the group or individual responsible. 
 
-If you are a developer or a website owner that needs to work within a dashboard and want to have a pretty sight while doing so, **[Paper Dashboard 2](https://creative-tim.com/live/paper-dashboard-2)** is for you. Paper Dashboard is a Bootstrap Admin Panel which combines soft colours with beautiful typography and spacious cards and graphics. It is a powerful tool, but it is light and easy to use. It has enough features to allow you to get the job done, but it is not crowded to the point where you can't find the files for a specific plugin.
+Statistical information contained in the Global Terrorism Database is based on reports from a variety of open media sources. Information is not added to the GTD unless and until we have determined the sources are credible. Users should not infer any additional actions or results beyond what is presented in a GTD entry and specifically, users should not infer an individual associated with a particular incident was tried and convicted of terrorism or any other criminal offense. If new documentation about an event becomes available, an entry may be modified, as necessary and appropriate. 
 
-We like consistency and design that blends into its purpose. Paper Dashboard is a perfect example of our most thoughtful work. It combines over a dozen components and plugins, while looking like everything fits together. For an easy start or inspiration for you project, we have also create a set of example pages, like the user settings or usage graphics.
-
-Paper Dashboard is built using the same design language as **[Paper Kit(https://www.creative-tim.com/product/paper-kit-2)**. You can easily use them together, or pick between them depending on the project you have.
-
-**Bootstrap 4 Support**
-Paper Dashboard 2 is built on top of the much awaited Bootstrap 4. This makes starting a new project very simple. It also provides benefits if you are already working on a Bootstrap 4 project; you can just import the Paper Dashboard style over it. Most of the elements have been redesigned; but if you are using an element we have not touched, it will fall back to the Bootstrap default.
-
-**Example Pages**
-We wanted to fully display the power of this dashboard, so the kit comes packed with examples showing you how to use the components. Inside the product you will find:
-
-## Links:
-
-+ [Live Preview](https://creativetimofficial.github.io/paper-dashboard-2/examples/dashboard.html)
-+ [Paper Dashboard 2 PRO](https://www.creative-tim.com/product/paper-dashboard-2-pro) (from $39)
-
-**Tutorial**
-In order for you to easily be able to use the Paper Dashboard 2, we have created a tutorial page in our documentation. It shows the structure for the files inside the archive and how to import them. It then features every components with a description and example how to use it. You can see the details [here](https://creativetimofficial.github.io/paper-dashboard-2/docs/1.0/getting-started/introduction.html).
+The National Consortium for the Study of Terrorism and Responses to Terrorism (START) makes the GTD available via this online interface in an effort to increase understanding of terrorist violence so that it can be more readily studied and defeated. 
+ 
+ The dataset selected Global Terrorism Database for the assignment has been we chosen from Kaggle. The dataset holds data about the terrorist attacks all around the world for the duration 1970 – 2017.  
+Dataset link: https://www.kaggle.com/START-UMD/gtd  
+Attributes: eventide, year, month, day, Aphrodite, extended, resolution, country, region, prostate, city, latitude, longitude, specificity, vicinity, location, summary, etc. It contains more 100 variables. 
 
 
-### What's included
+VISUALIZATION TOOL 
 
-Within the download you'll find the following directories and files:
+The best suited tools used have been selected based on the dataset selected in order for us to create the best interactive visuals for the project. The tools used are Jupyter notebook (Altair, Plotly, Numpy, Pandas, Seaborn and Vega lite has been used), Visual studio for HTML development.   
+ 
+INITIAL ANALYSIS QUESTION 
 
-```
-Paper Dashboard 2
-.
-├── CHANGELOG.md
-├── README.md
-├── assets
-│   ├── css/
-│   ├── demo/
-│   ├── fonts/
-│   ├── img/
-│   ├── js
-│   │   ├── core/
-│   │   ├── paper-dashboard.js
-│   │   ├── paper-dashboard.js.map
-│   │   ├── paper-dashboard.min.js
-│   │   └── plugins
-│   │       ├── bootstrap-notify.js
-│   │       ├── chartjs.min.js
-│   │       └── perfect-scrollbar.jquery.min.js
-│   └── scss/
-│       ├── paper-dashboard/
-│       │   ├── cards/
-│       │   ├── mixins/
-│       │   └── plugins/
-│       └── paper-dashboard.scss
-├── docs/
-│   └── documentation.html
-├── examples/
-│   ├── dashboard.html
-│   ├── icons.html
-│   ├── map.html
-│   ├── notifications.html
-│   ├── tables.html
-│   ├── typography.html
-│   ├── upgrade.html
-│   └── user.html
-├── gulpfile.js
-├── nucleo-icons.html
-└── package.json
-```
+1. In which Year most successful attacks have occurred?
+2. In which country major attacks have taken place? 
+3. Different kinds of attacks occurred yearly? 
+4. To identify number of people affected in different events? 
+5. Different locations where attack has been conducted? 
+6. To identify the impact of the major attack? 
 
-## Getting started
-- Download the project’s zip
-- Make sure you have node.js (https://nodejs.org/en/) installed
-- Type `npm install` in terminal/console in the source folder where `package.json` is located
-- You will find all the branding colors inside `assets/scss/core/variables/_brand.scss`. You can change them with a HEX value or with other predefined variables from `assets/scss/core/variables/_colors.scss`
-- Run in terminal `gulp compile-scss` for a single compilation or gulp watch for continous compilation of the changes that you make in `*.scss` files. This command should be run in the same folder where `gulpfile.js` and `package.json` are located
-- Run in terminal `gulp open-app` for opening the Presentation Page (default) of the product. You can set in `gulpfile.js` from your downloaded archive any page you want to open in browser, `at line 30: gulp.src('./examples/dashboard.html')`
+DISCOVERY AND INSIGHTS 
 
-
-## Useful Links
-
-More products from Creative Tim: <http://www.creative-tim.com/bootstrap-themes>
-
-Tutorials: <https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w>
-
-Freebies: <http://www.creative-tim.com/products>
-
-Affiliate Program (earn money): <http://www.creative-tim.com/affiliates/new>
-
-Social Media:
-
-Twitter: <https://twitter.com/CreativeTim>
-
-Facebook: <https://www.facebook.com/CreativeTim>
-
-Dribbble: <https://dribbble.com/creativetim>
-
-Google+: <https://plus.google.com/+CreativetimPage>
-
-Instagram: <https://instagram.com/creativetimofficial>
-
-[CHANGELOG]: ./CHANGELOG.md
-[LICENSE]: ./LICENSE
-[version-badge]: https://img.shields.io/badge/version-1.0.1-blue.svg
-[license-badge]: https://img.shields.io/badge/license-MIT-blue.svg
+1. For whom these questions/issues are important and what kind of actionable intelligence you expect to gather.
+2. We need to know for whom this insight is more valuable to? It will be more help to our Military force like Air Force, Army, Coast Guard, Marine Corps, Navy to the country to know the statistics of the terrorist attacks. 
+3. Military Force can come the strategy to defend and prevent the country from the terrorist attack. 
+4. It will help us in understanding the measure of terrorist attack in various aspect like what mode of communication they are using during the terrorist attack and what strategy they followed during the years. 
+5. With the given data Military Force can initiate new training strategy for the soldiers to be prepared for the attack and prevent the attack from happening. 
+6. Also, Military Force can prepare the scenario, if any worst things are happened like food, shelter for the citizen who were affected during the attack. 
+7. In which Country/City the Military Force needs to be more attentive because terrorist attack is not happening everywhere, it will happen the major countries and major cities.
+8. From the previous record the Military will get to know which organization most of the terrorist attack and what ways did they have used. 
+9. Using the given information, Military can create the high threat alert on the terrorist organization and capture them or prevent them from next terrorist attack. 
