@@ -1,3 +1,6 @@
+For Inter-active dashboard click here https://dvgnaveenkumarreddy.github.io/datavisualization/
+
+
 Terrorism has been one of the biggest threats to the international peace and security in the world today which every country is working on to evade it. The global terrorism database is a dataset which holds the details of the terrorist attacks that has occurred during the period of 1970 to 2017 across the globe. There have been 170,000 terrorist events that have taken place across the globe since 1970 to 2017. The different type of events recorded includes more than 83,000 bombing, 18000+ assassinations and more than 11,000 kidnapping.  
 
 Global terrorism database unlike many other event databases, the GTD includes systematic data on domestic as well as transnational and international terrorist incidents that have occurred during this time period and now includes more than 180,000 cases. For each GTD incident, information is available on the date and location of the incident, the weapons used and nature of the target, the number of casualties, and--when identifiable--the group or individual responsible. 
@@ -36,4 +39,4 @@ DISCOVERY AND INSIGHTS
 8. From the previous record the Military will get to know which organization most of the terrorist attack and what ways did they have used. 
 9. Using the given information, Military can create the high threat alert on the terrorist organization and capture them or prevent them from next terrorist attack. 
 
-For Live Visualization click here https://dvgnaveenkumarreddy.github.io/datavisualization/
+
