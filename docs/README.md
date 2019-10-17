@@ -35,3 +35,5 @@ DISCOVERY AND INSIGHTS
 7. In which Country/City the Military Force needs to be more attentive because terrorist attack is not happening everywhere, it will happen the major countries and major cities.
 8. From the previous record the Military will get to know which organization most of the terrorist attack and what ways did they have used. 
 9. Using the given information, Military can create the high threat alert on the terrorist organization and capture them or prevent them from next terrorist attack. 
+
+For Live Visualization click here https://dvgnaveenkumarreddy.github.io/datavisualization/
